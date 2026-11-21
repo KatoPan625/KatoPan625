@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="418" viewBox="0 0 1200 418" role="img" aria-labelledby="t">
+  <title id="t">Toolkit: Backend: Python · TypeScript · JavaScript · PostgreSQL · Supabase; Web: React · Next.js; Mobile: Flutter · Dart; Vision: OpenCV; Tools: Git · GitHub · Docker · Vercel; Languages: Vietnamese · English</title>
+  <style>
+    :root { --bg:#0e1726; --panel:#121d30; --ink:#ece4d4; --muted:#a3aab8; --gold:#c8a96a; --rule:#2b3a55; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f6f1e7; --panel:#efe8da; --ink:#1b2a44; --muted:#5f584b; --gold:#85672e; --rule:#d6cbb5; }
+    }
+    text { font-family: 'Cormorant Garamond','Palatino Linotype','Book Antiqua',Palatino,Cambria,Georgia,serif; }
+    .bg { fill: var(--bg); }
+    .f1 { fill: none; stroke: var(--gold); stroke-width: 1.2; }
+    .f2 { fill: none; stroke: var(--gold); stroke-width: .6; opacity: .55; }
+    .gold { fill: var(--gold); }
+    .caps { fill: var(--gold); font-size: 14px; letter-spacing: 4px; }
+    .ink { fill: var(--ink); }
+    .muted { fill: var(--muted); }
+    .fade { opacity: 0; animation: fade 1.2s ease-out forwards; }
+    .draw { stroke-dasharray: 3400; stroke-dashoffset: 3400; animation: draw 2.4s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; opacity: 1; } .draw { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <rect class="bg" width="1200" height="418"/>
+  <rect class="f1" x="18" y="18" width="1164" height="382"/>
+  <rect class="f2" x="26" y="26" width="1148" height="366"/>
+  <path class="gold" d="M18 13L23 18L18 23L13 18Z"/>
+  <path class="gold" d="M1182 13L1187 18L1182 23L1177 18Z"/>
+  <path class="gold" d="M18 395L23 400L18 405L13 400Z"/>
+  <path class="gold" d="M1182 395L1187 400L1182 405L1177 400Z"/>
+  <g class="fade" style="animation-delay:0.00s">
+    <path d="M96 78H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps" x="88" y="83" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">BACKEND</text>
+    <text class="ink" x="1112" y="85" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Python · TypeScript · JavaScript · PostgreSQL · Supabase</text>
+  </g>
+  <g class="fade" style="animation-delay:0.15s">
+    <path d="M96 132H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps" x="88" y="137" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">WEB</text>
+    <text class="ink" x="1112" y="139" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">React · Next.js</text>
+  </g>
+  <g class="fade" style="animation-delay:0.30s">
+    <path d="M96 186H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps" x="88" y="191" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">MOBILE</text>
+    <text class="ink" x="1112" y="193" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Flutter · Dart</text>
+  </g>
+  <g class="fade" style="animation-delay:0.45s">
+    <path d="M96 240H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps" x="88" y="245" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">VISION</text>
+    <text class="ink" x="1112" y="247" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">OpenCV</text>
+  </g>
+  <g class="fade" style="animation-delay:0.60s">
+    <path d="M96 294H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps" x="88" y="299" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">TOOLS</text>
+    <text class="ink" x="1112" y="301" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Git · GitHub · Docker · Vercel</text>
+  </g>
+  <g class="fade" style="animation-delay:0.75s">
+    <path d="M96 348H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps" x="88" y="353" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">LANGUAGES</text>
+    <text class="ink" x="1112" y="355" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Vietnamese · English</text>
+  </g>
+</svg>

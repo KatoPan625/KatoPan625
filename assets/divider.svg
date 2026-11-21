@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40" role="img" aria-labelledby="t">
+  <title id="t">divider</title>
+  <style>
+    :root { --bg:#0e1726; --panel:#121d30; --ink:#ece4d4; --muted:#a3aab8; --gold:#c8a96a; --rule:#2b3a55; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f6f1e7; --panel:#efe8da; --ink:#1b2a44; --muted:#5f584b; --gold:#85672e; --rule:#d6cbb5; }
+    }
+    text { font-family: 'Cormorant Garamond','Palatino Linotype','Book Antiqua',Palatino,Cambria,Georgia,serif; }
+    .bg { fill: var(--bg); }
+    .f1 { fill: none; stroke: var(--gold); stroke-width: 1.2; }
+    .f2 { fill: none; stroke: var(--gold); stroke-width: .6; opacity: .55; }
+    .gold { fill: var(--gold); }
+    .caps { fill: var(--gold); font-size: 14px; letter-spacing: 4px; }
+    .ink { fill: var(--ink); }
+    .muted { fill: var(--muted); }
+    .fade { opacity: 0; animation: fade 1.2s ease-out forwards; }
+    .draw { stroke-dasharray: 3400; stroke-dashoffset: 3400; animation: draw 2.4s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; opacity: 1; } .draw { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <path class="f1" d="M340 20H582 M618 20H860"/><path class="gold" d="M600 13L607 20L600 27L593 20Z"/><path class="gold" d="M572 17L575 20L572 23L569 20Z"/><path class="gold" d="M628 17L631 20L628 23L625 20Z"/>
+</svg>
