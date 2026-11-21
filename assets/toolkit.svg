@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="418" viewBox="0 0 1200 418" role="img" aria-labelledby="t">
-  <title id="t">Toolkit: Backend: Python · TypeScript · JavaScript · PostgreSQL · Supabase; Web: React · Next.js; Mobile: Flutter · Dart; Vision: OpenCV; Tools: Git · GitHub · Docker · Vercel; Languages: Vietnamese · English</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="364" viewBox="0 0 1200 364" role="img" aria-labelledby="t">
+  <title id="t">Toolkit: Backend: Python · TypeScript · JavaScript · PostgreSQL · Supabase; Web: React · Next.js; Mobile: Flutter · Dart; Tools: Git · GitHub · Docker · Vercel; Languages: Vietnamese · English</title>
   <style>
     :root { --bg:#0e1726; --panel:#121d30; --ink:#ece4d4; --muted:#a3aab8; --gold:#c8a96a; --rule:#2b3a55; }
     @media (prefers-color-scheme: light) {
@@ -17,15 +17,19 @@
     .draw { stroke-dasharray: 3400; stroke-dashoffset: 3400; animation: draw 2.4s ease-out forwards; }
     @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
     @keyframes draw { to { stroke-dashoffset: 0; } }
-    @media (prefers-reduced-motion: reduce) { .fade { animation: none; opacity: 1; } .draw { animation: none; stroke-dashoffset: 0; } }
+    .nstroke { fill: none; stroke: var(--gold); stroke-width: 1.1; stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 2.8s ease-in-out .3s forwards; }
+    .nfill { opacity: 0; animation: fade 1.4s ease-out 2s forwards; }
+    .dust { fill: var(--gold); opacity: 0; animation: rise linear infinite; }
+    @keyframes rise { 0% { opacity: 0; transform: translateY(0); } 15% { opacity: .7; } 85% { opacity: .5; } 100% { opacity: 0; transform: translateY(-140px); } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; opacity: 1; } .draw { animation: none; stroke-dashoffset: 0; } .motion { display: none; } .nstroke { animation: none; stroke-dashoffset: 0; } .nfill { animation: none; opacity: 1; } }
   </style>
-  <rect class="bg" width="1200" height="418"/>
-  <rect class="f1" x="18" y="18" width="1164" height="382"/>
-  <rect class="f2" x="26" y="26" width="1148" height="366"/>
+  <rect class="bg" width="1200" height="364"/>
+  <rect class="f1" x="18" y="18" width="1164" height="328"/>
+  <rect class="f2" x="26" y="26" width="1148" height="312"/>
   <path class="gold" d="M18 13L23 18L18 23L13 18Z"/>
   <path class="gold" d="M1182 13L1187 18L1182 23L1177 18Z"/>
-  <path class="gold" d="M18 395L23 400L18 405L13 400Z"/>
-  <path class="gold" d="M1182 395L1187 400L1182 405L1177 400Z"/>
+  <path class="gold" d="M18 341L23 346L18 351L13 346Z"/>
+  <path class="gold" d="M1182 341L1187 346L1182 351L1177 346Z"/>
   <g class="fade" style="animation-delay:0.00s">
     <path d="M96 78H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
     <text class="caps" x="88" y="83" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">BACKEND</text>
@@ -43,17 +47,12 @@
   </g>
   <g class="fade" style="animation-delay:0.45s">
     <path d="M96 240H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
-    <text class="caps" x="88" y="245" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">VISION</text>
-    <text class="ink" x="1112" y="247" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">OpenCV</text>
+    <text class="caps" x="88" y="245" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">TOOLS</text>
+    <text class="ink" x="1112" y="247" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Git · GitHub · Docker · Vercel</text>
   </g>
   <g class="fade" style="animation-delay:0.60s">
     <path d="M96 294H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
-    <text class="caps" x="88" y="299" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">TOOLS</text>
-    <text class="ink" x="1112" y="301" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Git · GitHub · Docker · Vercel</text>
-  </g>
-  <g class="fade" style="animation-delay:0.75s">
-    <path d="M96 348H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
-    <text class="caps" x="88" y="353" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">LANGUAGES</text>
-    <text class="ink" x="1112" y="355" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Vietnamese · English</text>
+    <text class="caps" x="88" y="299" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">LANGUAGES</text>
+    <text class="ink" x="1112" y="301" font-size="22" text-anchor="end" style="paint-order:stroke;stroke:var(--bg);stroke-width:14px">Vietnamese · English</text>
   </g>
 </svg>

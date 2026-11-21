@@ -31,7 +31,7 @@
 <h3 align="center">II. &nbsp;Toolkit</h3>
 
 <p align="center">
-  <img src="./assets/toolkit.svg" width="100%" alt="Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Vision: OpenCV. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English." />
+  <img src="./assets/toolkit.svg" width="100%" alt="Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English." />
 </p>
 
 <!-- ACTIVITY (hidden): delete this line and the "END ACTIVITY" line to show it again
