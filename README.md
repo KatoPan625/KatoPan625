@@ -10,10 +10,8 @@
   &nbsp;·&nbsp;
   <a href="FACEBOOK_LINK">Facebook</a>
   -->
-  <!-- TODO: uncomment when the portfolio is ready
   &nbsp;·&nbsp;
-  <a href="PORTFOLIO_LINK">Portfolio</a>
-  -->
+  <a href="https://katopan625.github.io/">Portfolio</a>
 </p>
 
 <p align="center"><img src="./assets/divider.svg" width="60%" alt="" /></p>
