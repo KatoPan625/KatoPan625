@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Phước An (Pan): Backend & API, Web & App developer, IT student at UTH" />
+  <img src="./assets/profile.svg" width="100%" alt="Phước An (Pan): Backend &amp; API, Web &amp; App developer, IT student at UTH. About: I study Information Technology at UTH, design backend services and APIs, and build web and mobile apps with React, Next.js and Flutter. Toolkit: Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English." />
 </p>
 
 <p align="center">
@@ -14,28 +14,10 @@
   <a href="https://katopan625.github.io/">Portfolio</a>
 </p>
 
-<p align="center"><img src="./assets/divider.svg" width="60%" alt="" /></p>
-
-<h3 align="center">I. &nbsp;About</h3>
-
-<p align="center">
-  I'm <b>Phước An</b>, though most people simply call me <b>Pan</b>.<br />
-  I study Information Technology at <b>UTH</b>, design backend services and APIs,<br />
-  and build web and mobile apps with React, Next.js and Flutter.
-</p>
-
-<p align="center"><img src="./assets/divider.svg" width="60%" alt="" /></p>
-
-<h3 align="center">II. &nbsp;Toolkit</h3>
-
-<p align="center">
-  <img src="./assets/toolkit.svg" width="100%" alt="Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English." />
-</p>
-
 <!-- ACTIVITY (hidden): delete this line and the "END ACTIVITY" line to show it again
 <p align="center"><img src="./assets/divider.svg" width="60%" alt="" /></p>
 
-<h3 align="center">III. &nbsp;Activity</h3>
+<h3 align="center">IV. &nbsp;Activity</h3>
 
 <p align="center">
   <img src="./profile/stats.svg" height="165" alt="GitHub stats" />
@@ -58,7 +40,3 @@
   </picture>
 </p>
 END ACTIVITY -->
-
-<p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Thank you for visiting" />
-</p>

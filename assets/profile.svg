@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1184" viewBox="0 0 1200 1184" role="img" aria-labelledby="t d">
+  <title id="t">Phước An (Pan): Backend &amp; API, Web &amp; App developer, IT student at UTH</title>
+  <desc id="d">About: I'm Phước An, though most people simply call me Pan. I study Information Technology at UTH, design backend services and APIs, and build web and mobile apps with React, Next.js and Flutter. Toolkit: Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English.</desc>
+  <style>
+    :root { --bg:#0e1726; --ink:#ece4d4; --muted:#a3aab8; --gold:#c8a96a; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f6f1e7; --ink:#1b2a44; --muted:#5f584b; --gold:#85672e; }
+    }
+    text { font-family: 'Cormorant Garamond','Palatino Linotype','Book Antiqua',Palatino,Cambria,Georgia,serif; }
+    .bg { fill: var(--bg); }
+    .f1 { fill: none; stroke: var(--gold); stroke-width: 1.2; }
+    .f2 { fill: none; stroke: var(--gold); stroke-width: .6; opacity: .55; }
+    .gold { fill: var(--gold); }
+    .caps { fill: var(--gold); font-size: 14px; letter-spacing: 4px; }
+    .ink { fill: var(--ink); }
+    .muted { fill: var(--muted); }
+    .knock { paint-order: stroke; stroke: var(--bg); stroke-width: 14px; }
+    .fade { opacity: 0; animation: fade 1.2s ease-out forwards; }
+    .draw { stroke-dasharray: 5000; stroke-dashoffset: 5000; animation: draw 3s ease-out forwards; }
+    .spine { stroke: var(--gold); stroke-width: 1.2; stroke-dasharray: 60; stroke-dashoffset: 60; animation: draw 1s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .nstroke { fill: none; stroke: var(--gold); stroke-width: 1.1; stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 2.8s ease-in-out .3s forwards; }
+    .nfill { opacity: 0; animation: fade 1.4s ease-out 2s forwards; }
+    .dust { fill: var(--gold); opacity: 0; animation: rise linear infinite; }
+    @keyframes rise { 0% { opacity: 0; transform: translateY(0); } 15% { opacity: .7; } 85% { opacity: .5; } 100% { opacity: 0; transform: translateY(-140px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .fade { animation: none; opacity: 1; } .draw, .spine { animation: none; stroke-dashoffset: 0; } .motion { display: none; }
+      .nstroke { animation: none; stroke-dashoffset: 0; } .nfill { animation: none; opacity: 1; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="260" y2="0">
+      <stop offset="0" style="stop-color:var(--gold);stop-opacity:0"/>
+      <stop offset=".5" style="stop-color:var(--gold);stop-opacity:.95"/>
+      <stop offset="1" style="stop-color:var(--gold);stop-opacity:0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="290 0;780 0;780 0" keyTimes="0;.45;1" dur="7s" begin="3.4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glint" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2"/></filter>
+    <!-- a chapter heading: rules either side of a centred label, a diamond above where the spine lands -->
+    <g id="dia"><path class="gold" d="M0 -6L6 0L0 6L-6 0Z"/></g>
+  </defs>
+
+  <!-- ONE frame around everything -->
+  <rect class="bg" width="1200" height="1184"/>
+  <rect class="f1 draw" x="18" y="18" width="1164" height="1148"/>
+  <rect class="f2 draw" x="26" y="26" width="1148" height="1132"/>
+  <path class="gold" d="M18 13L23 18L18 23L13 18Z"/>
+  <path class="gold" d="M1182 13L1187 18L1182 23L1177 18Z"/>
+  <path class="gold" d="M18 1161L23 1166L18 1171L13 1166Z"/>
+  <path class="gold" d="M1182 1161L1187 1166L1182 1171L1177 1166Z"/>
+  <!-- side rails: small ticks where each chapter starts, tying the sections to the frame -->
+  <g class="fade" style="animation-delay:1.6s">
+    <path class="f1" d="M26 452H56 M1144 452H1174 M26 656H56 M1144 656H1174 M26 982H56 M1144 982H1174"/>
+  </g>
+  <text class="gold" x="600" y="330" font-size="300" font-style="italic" text-anchor="middle" opacity=".06">PA</text>
+
+  <!-- ===== Hero ===== -->
+  <text class="caps fade" x="600" y="112" text-anchor="middle" style="animation-delay:.2s">GITHUB  ·  KATOPAN625  ·  EST. MMXXIV</text>
+  <text class="nstroke" x="600" y="204" font-size="92" font-weight="500" text-anchor="middle">Phước An</text>
+  <text class="ink nfill" x="600" y="204" font-size="92" font-weight="500" text-anchor="middle">Phước An</text>
+  <text class="motion" x="600" y="204" font-size="92" font-weight="500" text-anchor="middle" fill="url(#sheen)">Phước An</text>
+  <text class="muted fade" x="600" y="250" font-size="26" font-style="italic" text-anchor="middle" style="animation-delay:.6s">known simply as Pan</text>
+  <g class="fade" style="animation-delay:.8s">
+    <path class="f1" d="M450 288H580 M620 288H750"/><path class="gold" d="M600 282L606 288L600 294L594 288Z"/><path class="gold" d="M450 285L453 288L450 291L447 288Z"/><path class="gold" d="M750 285L753 288L750 291L747 288Z"/>
+  </g>
+  <g class="motion">
+    <circle r="3.5" class="gold" filter="url(#glint)" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="4.5s" begin="2s" repeatCount="indefinite"/>
+      <animateMotion path="M450 288H750" dur="4.5s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g class="motion"><circle class="dust" cx="897" cy="332" r="1" style="animation-duration:9.5s;animation-delay:3.2s"/><circle class="dust" cx="278" cy="391" r="1.6" style="animation-duration:8.6s;animation-delay:1.6s"/><circle class="dust" cx="311" cy="393" r="1.6" style="animation-duration:12.8s;animation-delay:5.8s"/><circle class="dust" cx="394" cy="369" r="2" style="animation-duration:11.7s;animation-delay:7.3s"/><circle class="dust" cx="1068" cy="379" r="1.3" style="animation-duration:11.4s;animation-delay:2.6s"/><circle class="dust" cx="114" cy="368" r="1" style="animation-duration:9.7s;animation-delay:9.5s"/><circle class="dust" cx="165" cy="387" r="1.6" style="animation-duration:13.9s;animation-delay:7.8s"/><circle class="dust" cx="1038" cy="362" r="1.3" style="animation-duration:13.3s;animation-delay:0.4s"/><circle class="dust" cx="1034" cy="322" r="1.3" style="animation-duration:13.3s;animation-delay:3.8s"/><circle class="dust" cx="745" cy="314" r="1.6" style="animation-duration:9.3s;animation-delay:8.2s"/><circle class="dust" cx="378" cy="307" r="1.6" style="animation-duration:10.7s;animation-delay:9.4s"/><circle class="dust" cx="155" cy="354" r="1.3" style="animation-duration:8.3s;animation-delay:1.6s"/></g>
+  <text class="caps fade" x="600" y="334" text-anchor="middle" style="animation-delay:1s">BACKEND &amp; API  ·  WEB &amp; APP  ·  IT AT UTH</text>
+  <text class="muted fade" x="600" y="370" font-size="19" font-style="italic" text-anchor="middle" style="animation-delay:1.2s">Hello, and welcome to my corner of GitHub.</text>
+
+  <!-- spine: hero -> I. About -->
+  <path class="spine" d="M600 388V440" style="animation-delay:1.4s"/>
+  <g class="fade" style="animation-delay:1.6s">
+    <use href="#dia" x="600" y="446"/>
+    <path class="f2" d="M96 452H500 M700 452H1104"/>
+    <text class="caps" x="600" y="478" text-anchor="middle">I  ·  ABOUT</text>
+  </g>
+
+  <!-- ===== I. About ===== -->
+  <g class="fade" style="animation-delay:1.8s">
+    <text class="ink" x="600" y="528" font-size="24" text-anchor="middle">I'm <tspan class="gold" font-weight="600">Phước An</tspan>, though most people simply call me <tspan class="gold" font-weight="600">Pan</tspan>.</text>
+    <text class="ink" x="600" y="564" font-size="24" text-anchor="middle">I study Information Technology at <tspan class="gold" font-weight="600">UTH</tspan>, design backend services and APIs,</text>
+    <text class="ink" x="600" y="600" font-size="24" text-anchor="middle">and build web and mobile apps with React, Next.js and Flutter.</text>
+  </g>
+
+  <!-- spine: About -> II. Toolkit -->
+  <path class="spine" d="M600 612V644" style="animation-delay:2s"/>
+  <g class="fade" style="animation-delay:2.1s">
+    <use href="#dia" x="600" y="650"/>
+    <path class="f2" d="M96 656H500 M700 656H1104"/>
+    <text class="caps" x="600" y="682" text-anchor="middle">II  ·  TOOLKIT</text>
+  </g>
+
+  <!-- ===== II. Toolkit ===== -->
+  <g class="fade" style="animation-delay:2.2s">
+    <path d="M96 736H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps knock" x="88" y="741">BACKEND</text>
+    <text class="ink knock" x="1112" y="743" font-size="22" text-anchor="end">Python · TypeScript · JavaScript · PostgreSQL · Supabase</text>
+  </g>
+  <g class="fade" style="animation-delay:2.35s">
+    <path d="M96 786H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps knock" x="88" y="791">WEB</text>
+    <text class="ink knock" x="1112" y="793" font-size="22" text-anchor="end">React · Next.js</text>
+  </g>
+  <g class="fade" style="animation-delay:2.5s">
+    <path d="M96 836H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps knock" x="88" y="841">MOBILE</text>
+    <text class="ink knock" x="1112" y="843" font-size="22" text-anchor="end">Flutter · Dart</text>
+  </g>
+  <g class="fade" style="animation-delay:2.65s">
+    <path d="M96 886H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps knock" x="88" y="891">TOOLS</text>
+    <text class="ink knock" x="1112" y="893" font-size="22" text-anchor="end">Git · GitHub · Docker · Vercel</text>
+  </g>
+  <g class="fade" style="animation-delay:2.8s">
+    <path d="M96 936H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps knock" x="88" y="941">LANGUAGES</text>
+    <text class="ink knock" x="1112" y="943" font-size="22" text-anchor="end">Vietnamese · English</text>
+  </g>
+
+  <!-- spine: Toolkit -> III. Correspondence -->
+  <path class="spine" d="M600 950V970" style="animation-delay:3s"/>
+  <g class="fade" style="animation-delay:3.1s">
+    <use href="#dia" x="600" y="976"/>
+    <path class="f2" d="M96 982H500 M700 982H1104"/>
+    <text class="caps" x="600" y="1008" text-anchor="middle">III  ·  CORRESPONDENCE</text>
+  </g>
+
+  <!-- ===== III. Contact + farewell ===== -->
+  <g class="fade" style="animation-delay:3.3s">
+    <text class="ink" x="600" y="1054" font-size="21" text-anchor="middle">Email  <tspan class="gold">·</tspan>  X  <tspan class="gold">·</tspan>  Portfolio  <tspan class="muted" font-style="italic">— links just below</tspan></text>
+    <text class="ink" x="600" y="1104" font-size="26" font-style="italic" text-anchor="middle">Thank you for visiting</text>
+    <text class="caps" x="600" y="1136" text-anchor="middle">—  PAN  ·  MMXXVI  —</text>
+  </g>
+</svg>
