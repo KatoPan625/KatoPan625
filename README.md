@@ -2,17 +2,7 @@
   <img src="./assets/profile.svg" width="100%" alt="Phước An (Pan): Backend &amp; API, Web &amp; App developer, IT student at UTH. About: I study Information Technology at UTH, design backend services and APIs, and build web and mobile apps with React, Next.js and Flutter. Toolkit: Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English." />
 </p>
 
-<p align="center">
-  <a href="mailto:phuocanlai0602@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  <a href="https://x.com/KatoPa62">X</a>
-  <!-- TODO: replace FACEBOOK_LINK with your Facebook URL, then uncomment
-  &nbsp;·&nbsp;
-  <a href="FACEBOOK_LINK">Facebook</a>
-  -->
-  &nbsp;·&nbsp;
-  <a href="https://katopan625.github.io/">Portfolio</a>
-</p>
+
 
 <!-- ACTIVITY (hidden): delete this line and the "END ACTIVITY" line to show it again
 <p align="center"><img src="./assets/divider.svg" width="60%" alt="" /></p>
