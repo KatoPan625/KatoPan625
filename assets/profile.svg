@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1184" viewBox="0 0 1200 1184" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1234" viewBox="0 0 1200 1234" role="img" aria-labelledby="t d">
   <title id="t">Phước An (Pan): Backend &amp; API, Web &amp; App developer, IT student at UTH</title>
-  <desc id="d">About: I'm Phước An, though most people simply call me Pan. I study Information Technology at UTH, design backend services and APIs, and build web and mobile apps with React, Next.js and Flutter. Toolkit: Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English.</desc>
+  <desc id="d">About: I'm Phước An, though most people simply call me Pan. I study Information Technology at UTH, design backend services and APIs, and build web and mobile apps with React, Next.js and Flutter. Toolkit: Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Infrastructure: Docker, Nginx, HAProxy, RabbitMQ, Ansible, Prometheus. Tools: Git, GitHub Actions, Vercel. Languages: Vietnamese, English.</desc>
   <style>
     :root { --bg:#0e1726; --ink:#ece4d4; --muted:#a3aab8; --gold:#c8a96a; }
     @media (prefers-color-scheme: light) {
@@ -42,16 +42,16 @@
   </defs>
 
   <!-- ONE frame around everything -->
-  <rect class="bg" width="1200" height="1184"/>
-  <rect class="f1 draw" x="18" y="18" width="1164" height="1148"/>
-  <rect class="f2 draw" x="26" y="26" width="1148" height="1132"/>
+  <rect class="bg" width="1200" height="1234"/>
+  <rect class="f1 draw" x="18" y="18" width="1164" height="1198"/>
+  <rect class="f2 draw" x="26" y="26" width="1148" height="1182"/>
   <path class="gold" d="M18 13L23 18L18 23L13 18Z"/>
   <path class="gold" d="M1182 13L1187 18L1182 23L1177 18Z"/>
-  <path class="gold" d="M18 1161L23 1166L18 1171L13 1166Z"/>
-  <path class="gold" d="M1182 1161L1187 1166L1182 1171L1177 1166Z"/>
+  <path class="gold" d="M18 1211L23 1216L18 1221L13 1216Z"/>
+  <path class="gold" d="M1182 1211L1187 1216L1182 1221L1177 1216Z"/>
   <!-- side rails: small ticks where each chapter starts, tying the sections to the frame -->
   <g class="fade" style="animation-delay:1.6s">
-    <path class="f1" d="M26 452H56 M1144 452H1174 M26 656H56 M1144 656H1174 M26 982H56 M1144 982H1174"/>
+    <path class="f1" d="M26 452H56 M1144 452H1174 M26 656H56 M1144 656H1174 M26 1032H56 M1144 1032H1174"/>
   </g>
   <text class="gold" x="600" y="330" font-size="300" font-style="italic" text-anchor="middle" opacity=".06">PA</text>
 
@@ -115,26 +115,31 @@
   </g>
   <g class="fade" style="animation-delay:2.65s">
     <path d="M96 886H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
-    <text class="caps knock" x="88" y="891">TOOLS</text>
-    <text class="ink knock" x="1112" y="893" font-size="22" text-anchor="end">Git · GitHub · Docker · Vercel</text>
+    <text class="caps knock" x="88" y="891">INFRASTRUCTURE</text>
+    <text class="ink knock" x="1112" y="893" font-size="22" text-anchor="end">Docker · Nginx · HAProxy · RabbitMQ · Ansible · Prometheus</text>
   </g>
-  <g class="fade" style="animation-delay:2.8s">
+  <g class="fade" style="animation-delay:2.80s">
     <path d="M96 936H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
-    <text class="caps knock" x="88" y="941">LANGUAGES</text>
-    <text class="ink knock" x="1112" y="943" font-size="22" text-anchor="end">Vietnamese · English</text>
+    <text class="caps knock" x="88" y="941">TOOLS</text>
+    <text class="ink knock" x="1112" y="943" font-size="22" text-anchor="end">Git · GitHub Actions · Vercel</text>
+  </g>
+  <g class="fade" style="animation-delay:2.95s">
+    <path d="M96 986H1104" stroke="var(--gold)" stroke-width="1.4" stroke-dasharray="1 7" stroke-linecap="round" opacity=".7"/>
+    <text class="caps knock" x="88" y="991">LANGUAGES</text>
+    <text class="ink knock" x="1112" y="993" font-size="22" text-anchor="end">Vietnamese · English</text>
   </g>
 
   <!-- spine: Toolkit -> III. Correspondence -->
-  <path class="spine" d="M600 950V970" style="animation-delay:3s"/>
+  <path class="spine" d="M600 1000V1020" style="animation-delay:3s"/>
   <g class="fade" style="animation-delay:3.1s">
-    <use href="#dia" x="600" y="976"/>
-    <path class="f2" d="M96 982H500 M700 982H1104"/>
-    <text class="caps" x="600" y="1008" text-anchor="middle">III  ·  CORRESPONDENCE</text>
+    <use href="#dia" x="600" y="1026"/>
+    <path class="f2" d="M96 1032H500 M700 1032H1104"/>
+    <text class="caps" x="600" y="1058" text-anchor="middle">III  ·  CORRESPONDENCE</text>
   </g>
 
   <!-- ===== III. Contact + farewell ===== -->
   <g class="fade" style="animation-delay:3.3s">
-    <text class="ink" x="600" y="1104" font-size="26" font-style="italic" text-anchor="middle">Thank you for visiting</text>
-    <text class="caps" x="600" y="1136" text-anchor="middle">—  PAN  ·  MMXXVI  —</text>
+    <text class="ink" x="600" y="1154" font-size="26" font-style="italic" text-anchor="middle">Thank you for visiting</text>
+    <text class="caps" x="600" y="1186" text-anchor="middle">—  PAN  ·  MMXXVI  —</text>
   </g>
 </svg>

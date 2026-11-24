@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile.svg" width="100%" alt="Phước An (Pan): Backend &amp; API, Web &amp; App developer, IT student at UTH. About: I study Information Technology at UTH, design backend services and APIs, and build web and mobile apps with React, Next.js and Flutter. Toolkit: Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Tools: Git, GitHub, Docker, Vercel. Languages: Vietnamese, English." />
+  <img src="./assets/profile.svg" width="100%" alt="Phước An (Pan): Backend &amp; API, Web &amp; App developer, IT student at UTH. About: I study Information Technology at UTH, design backend services and APIs, and build web and mobile apps with React, Next.js and Flutter. Toolkit: Backend: Python, TypeScript, JavaScript, PostgreSQL, Supabase. Web: React, Next.js. Mobile: Flutter, Dart. Infrastructure: Docker, Nginx, HAProxy, RabbitMQ, Ansible, Prometheus. Tools: Git, GitHub Actions, Vercel. Languages: Vietnamese, English." />
 </p>
 
 
